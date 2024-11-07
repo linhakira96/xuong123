@@ -1,12 +1,9 @@
 import React from 'react'
 
-const Layout = ({ children }: { children: React.ReactNode }) => {
+const page = () => {
     return (
-        <div>
-            <aside>Assads</aside>
-            <main>{children}</main>
-        </div>
+        <div>page</div>
     )
 }
 
-export default Layout
+export default page
